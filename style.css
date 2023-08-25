@@ -1,1 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+* {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-image: url(./Photos/Background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#wrapper {
+    background-color: rgba(74, 74, 74, 0.7);
+    margin: -10px -10px -1rem -10px;
+}
+
+#navBtn {
+    font-size: 2rem;
+    text-align: left;
+    padding: .5rem 0 0 1rem;
+    color: #ffcf4b;
+}
+
+#nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffcf4b;
+    overflow-x: hidden;
+    transition: 0.5s;
+    color: #6f122f;
+}
+
+#closeBtn {
+    font-size: 1.5rem;
+    text-align: right;
+    margin: .5rem 1rem;
+    color: #8C1D40;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+ul {
+    margin-top: -1rem;
+}
+
+ul div {
+    font-family: 'Gluten', cursive;
+    font-size: 1.5rem;
+    padding: 1.5rem 0 0 .5rem;
+    text-align: left;
+}
+
+ul div a {
+    color: #8C1D40;
+}
+
+#title {
+    font-family: 'Gluten', cursive;
+    font-size: 4.5rem;
+    -webkit-text-fill-color: #6f122f;
+    -webkit-text-stroke: 1px #ffcf4b;
+    text-shadow: #FC0 1px 0px 10px;
+}
+
+h1 {
+    font-family: 'Gluten', cursive;
+    padding-top: 1rem;
+}
+
+.header {
+    color: #ffcf4b;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 1rem 1rem 1rem;
+}
+
+p a {
+    color: #ffcf4b;
+    text-decoration: underline;
+}
+
+#contactInfo {
+    padding-bottom: 2rem;
+}
+
+@media only screen and (min-width: 1000px) {
+
+}
