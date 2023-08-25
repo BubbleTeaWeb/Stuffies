@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Sparky's Stuffies!</title>
+    <link rel="icon" href="ASU Stuffies Logo.png">
+</head>
+
+<body>
+    <div id="wrapper">
+        <!--NAVIGATION BAR---------------------------------------------->
+        <div id="navBtn" class="button" onclick="openNav()">&#9776;</div>
+        <div id="nav">
+            <div id="closeBtn" class="button" onclick="closeNav()">&#10006;</div>
+            <ul onclick="closeNav()">
+                <div><a href="#home">Home</a></div>
+                <div><a href="#about">Who We Are</a></div>
+                <div><a href="#signUp">Become a Member!</a></div>
+                <!-- <div><a href="#members">Member List</a></div> -->
+                <!-- <div><a href="#gallery">Gallery</a></div> -->
+                <div><a href="#contact">Get in Touch</a></div>
+            </ul>
+        </div>
+
+        <!--TITLE---------------------------------------------->
+        <h1 id="title">SPARKY'S STUFFIES!</h1>
+
+        <!--ABOUT---------------------------------------------->
+        <h1 id="about" class="header">Who We Are</h1>
+        <p>Sparky's Stuffies! exists to bring laughter and fun to Arizona State University through Stuffies of all kinds. College life is stressful; we get it! And we believe that a simple stuffed animal or plushie has the
+            power to
+            lighten a mood, draw a smile, and bring cheer to any atmosphere. That's why we are committed to bringing
+            our
+            Stuffies </p>
+
+        <!--MEMBERSHIP---------------------------------------------->
+        <h1 id="signUp" class="header">Become a Member!</h1>
+        <p>Want to bring cheer to ASU <b>AND</b> get an excuse to take your Stuffies with you wherever you go? Sign
+            up
+            <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfzvaPV42DtvowgmJ__CZwR19Bkka-3lJmeEnie7sNhPa7n8Q/viewform">here</a>!
+            Don't own any Stuffies? Sign up anyway! We've got plenty of fun opportunities for you,
+            too!
+        </p>
+
+        <!--CONTACT---------------------------------------------->
+        <h1 id="contact" class="header">Get in Touch</h1>
+        <p id="contactInfo">Got questions? Curious to know more? Email us at <a
+                href="mailto:asustuffies@gmail.com">sparkysstuffies@gmail.com</a>
+        </p>
+    </div>
+</body>
+
+<script>
+    //OPEN & CLOSE NAV BAR
+    function openNav() {
+        document.querySelector("#nav").style.width = "100%";
+    }
+
+    function closeNav() {
+        document.querySelector("#nav").style.width = "0";
+    }
+
+</script>
+
+</html>
